@@ -1,0 +1,40 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header nav .logo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 24px auto;
+    font-weight: bold;
+    color: #f44242;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+header .menu li {
+    list-style-type: none;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: ;
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+header .menu li a: {
+
+
+}
