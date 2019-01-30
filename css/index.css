@@ -2,19 +2,22 @@
 
 body {
     max-width: 980px;
-    margin: auto;
+    margin: 0;
 }
-
-header nav .logo {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 3rem;
+ 
+ header .logo {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 3rem;
     text-align: center;
     margin: 24px auto;
     font-weight: bold;
-    color: #f44242;
-    
-    
+    color: white;
+ text-shadow:  
+  5px 5px 10px rgba(0, 0, 0, .4);
 }
+     
+
+
 
 header .menu {
     display: flex;
@@ -43,29 +46,19 @@ header .menu li {
 
 header .menu li a {
 display: block;
-  padding: 6px;
+  padding: 8px;
   width: 100px;
   color: #fff;
   text-decoration: none;
   text-align: center;
+  
 }
 
-header .banner {
-    background-image: url(../img/tesla-model-x-black.jpg);
+header .logo {
+    background-image: url(../img/bmw522.jpg);
     background-position: center;
     background-size: cover;
     min-height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header .banner h1 {
-    color: var(--accent-color);
-    font-size: 3rem;
-}
-
-header .banner .button-container {
     display: flex;
     align-items: center;
     justify-content: center;
