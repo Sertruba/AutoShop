@@ -7,14 +7,18 @@ body {
  
  header .logo {
  font-family: 'Open Sans', sans-serif;
- font-size: 3rem;
+ font-size: 5rem;
     text-align: center;
-    margin: 24px auto;
+    margin: 30px auto;
     font-weight: bold;
     color: white;
- text-shadow:  
-  5px 5px 10px rgba(0, 0, 0, .4);
+ text-shadow:  5px 5px 10px rgba(0, 0, 0, .4);
+ position:absolute;
+left:320px;
+top:100px;
 }
+
+
      
 
 
@@ -33,7 +37,7 @@ header .menu li {
 
 header .menu {
  height: 30px;
-  background-color: #666;
+  background-color: #004ecc;
   padding-left: 25px;
   min-width: 470px;
 
@@ -51,15 +55,11 @@ display: block;
   color: #fff;
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
   
 }
 
-header .logo {
-    background-image: url(../img/bmw522.jpg);
-    background-position: center;
-    background-size: cover;
-    min-height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+main .home a{
+    
+    
 }
