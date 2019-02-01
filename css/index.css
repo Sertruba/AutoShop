@@ -49,3 +49,40 @@ header .banner p {
   margin: auto;
 }
 
+main .home div {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #4542f4;
+ text-shadow:  5px 5px 10px rgba(0, 0, 0, .4);
+ text-align: center;
+}
+
+main .home p {
+     font-size: 8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #0e3aed;
+ text-shadow:  5px 5px 10px rgba(0, 0, 0, .7);
+ text-align: left;
+ margin: 2px;
+}
+
+main .home h2 {
+     font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #0e3aed;
+ text-shadow:  5px 5px 10px rgba(0, 0, 0, .4);
+ text-align: left;
+  margin: 2px;
+}
+
+main .home form{
+ font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #000207;
+ text-align: right;
+  margin: 2px;
+}
